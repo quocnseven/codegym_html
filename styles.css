@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    
+}
+
+#youtube{
+    position:relative;
+    color: yellow;
+    background-color: black;
+    font-size:40px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+iframe{
+    position:absolute;
+    top: 90px;
+    right: 25%;
+    margin-top: 40px;
+    margin-bottom:20px;
+    margin-right: 95px;
+}
+
+#music{
+    background-color: black;
+    color:yellow;
+    padding: 16px;
+    margin: 20px;
+}
+
+#video{
+    
+    background-color: black;
+    color:yellow;
+    padding: 16px;
+    margin: 20px 0px 20px 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+}
+
+#videoUl{
+    display: flex;
+    justify-content: center;
+}
+
+#videoUl #videotiktok{
+    margin-right: 70px;
+}
+
