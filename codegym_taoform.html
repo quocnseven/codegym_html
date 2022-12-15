@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form</title>
+    <link rel="stylesheet" href="./codegym_taoform.css">
+</head>
+<body>
+    <div class="form_1">
+        <form class="formthongtin" method="GET" action="http://webcuaquoc.10x.bz" enctype="multipart/form-data" name="formhobby">
+            <table class="table" style="border: 1px solid black">
+                <tr>
+                    <th colspan="2" style="text-align:center; color:aliceblue; background-color:tomato; padding:10px">SỞ THÍCH CỦA BẠN</th>
+                </tr>
+                <tr>
+                    <td style="color:blue; text-align: left">Họ và tên</td>
+                    <td><input type="text" name="yourname" placeholder="Nguyễn Văn A"/></td>
+                    
+                </tr>
+                <tr>
+                    <td style="color:blue; text-align: right">Email</td>
+                    <td><input type="text" name="email" placeholder="abc@gmail.com"/></td>
+                </tr>
+                <tr>
+                    <td style="color:blue; text-align: right;">Sở thích</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Thể thao</label></input></td>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Âm nhạc</label></input></td>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Đọc sách</label></input></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Lướt web</label></input></td>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Chơi game</label></input></td>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Điện ảnh</label></input></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="hobby"/><label style="color:tomato">Du lịch</label></input></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="Gửi thông tin">
+                        <input type="reset" name="rs" value="Nhập lại">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <!-- form thứ 2 -->
+    <div class="form_2">
+        <form action="https://webcuaquoc.x10.bz" method="GET" enctype="multipart/form-data" name="formdangky">
+            <table style="background-color:wheat">
+                <tr>
+                    <th style="color:aliceblue; background-color:brown; padding: 10px" colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+                </tr>
+                <tr>
+                    <td><label style="color:darkblue;" for="">Họ và tên</label></td>
+                    <td><input type="text" name="name" placeholder="Nguyễn Văn A"></input></td>
+                </tr>
+                <tr>
+                    <td><label style="color:darkblue;" for="">Ngày sinh</label></td>
+                    <td><input type="text" name="yourbirthday" placeholder="dd/mm/yy"></input></td>
+                </tr>
+                <tr>
+                    <td><label style="color:darkblue;" for="">Giới tính</label></td>
+                    <td><label><input type="radio" name="sex"> Nam</input></label> <label><input type="radio" name="sex"> Nữ</input></label></td>
+                </tr>
+                <tr>
+                    <td><label style="color:darkblue;" for="">Địa chỉ</label></td>
+                    <td><textarea rows="4" placeholder="Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label style="color:darkblue;" for="">Email</label></td>
+                    <td><input type="text" name="email" placeholder="abc@gmail.com"></input></td>
+                </tr>
+                <tr>
+                    <td><label style="color:darkblue;" for="">Điện thoại</label></td>
+                    <td><input type="text" name="phonenumber"  placeholder="0123456789"></input></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="Đăng ký">
+                        <input type="reset" name="submit" value="Nhập lại">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
