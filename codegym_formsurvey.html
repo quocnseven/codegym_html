@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form khảo sát</title>
+    <link rel="stylesheet" href="./codegym_formsurvey.css">
+</head>
+<body>
+    <form action="webcuaquoc.x10.bz" method="GET" name="survey" enctype="multipart/form-data">
+        <div class="survey">
+            <!-- header -->
+            <div class="header" style="border-top: 1px solid gray; border-bottom: 1px solid gray">
+                <h1>Market Research Survey</h1>
+                <h5 style="color:gray; margin-top: -5px; padding-bottom: 8px">Please take a few moments to complete this satisfaction survey.</h5>
+            </div>
+
+            <!-- body survey -->
+            <div class="body">
+                <div class="age_range">
+                    <h5>What is your age range? <br>
+                        <select name="agerange" style="width: 20%">
+                            <option value="18-24">18-24</option>
+                            <option value="25-34">25-34</option>
+                            <option value="35-50">35-50</option>
+                            <option value="50+">50+</option>
+                        </select>
+                    </h5>
+                </div>
+                <div class="income_range">
+                    <h5>What is your income range? <br>
+                        <select name="agerange" style="width: 20%">
+                            <option value="$0-$25,000">$0-$25,000</option>
+                            <option value="$25,001-$50,000">$25,001-$50,000</option>
+                            <option value="$50,001-$100.000">$50,001-$100.000</option>
+                            <option value="$100.000+">$100.000+</option>
+                        </select>
+                    </h5>
+                </div>
+                <div class="gender">
+                    <h5>Gender identify <br>
+                        <label style="font-weight:200" for=""><input type="radio" name="gender">Male</label><br>
+                        <label style="font-weight:200" for=""><input type="radio" name="gender">Female</label>
+                    </h5>
+                </div>
+                <div class="product">
+                    <h5>Which of the following products have your purchased in the last 2 months. Please check all that apply.<br>
+                        <label style="font-weight:200" for=""><input type="checkbox" name="product"> Product 1</label><br>
+                        <label style="font-weight:200" for=""><input type="checkbox" name="product"> Product 2</label><br>
+                        <label style="font-weight:200" for=""><input type="checkbox" name="product"> Product 3</label>
+                    </h5>
+                </div>
+                <div class="often">
+                    <h5>How often would you see our new product?<br>
+                        <label style="font-weight:200" for=""><input type="radio" name="often"> Dayly</label><br>
+                        <label style="font-weight:200" for=""><input type="radio" name="often"> Weekly</label><br>
+                        <label style="font-weight:200" for=""><input type="radio" name="often"> Monthly</label><br>
+                    </h5>
+                </div>
+                <div class="pay">
+                    <h5>What would you pay for the new product?<br>
+                        <div>   
+                            <table>
+                                <tr>
+                                    <td>$</td>
+                                    <td><input type="text" name="dollar" size="10"></td>
+                                    <td>.</td>
+                                    <td><input type="text" name="cents" size="1"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><h5 style="font-weight:200">Dollars</h5></td>
+                                    <td></td>
+                                    <td><h5 style="font-weight:200">Cents</h5></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </h5>
+                </div>
+                <div class="feature">
+                    <h5>What feature would you like to see in the new product?<br>
+                    <textarea name="feature" id="" cols="200" rows="8"></textarea>
+                    </h5>
+                </div>
+                <div class="rate">                      
+                        <table cellspacing="0" style="border: 1px solid #ccc; border-bottom: none; width:100%">
+                            <caption style="font-weight:200; font-size: small; text-align: left;">Please rate your level of agreement with the following statements.</caption>
+                            <thead>
+                                <tr style="background-color: #e6e6e6">
+                                    <th></th>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 8px; margin: 8px; width: 14%">Strongly Disagree</td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; width: 14%">Disagree</td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; width: 14%">Agree</td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; width: 14%">Strongly Agree</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align:left"><b>Our products are priced fairly.</b></td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_1"><br>1</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_1"><br>2</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_1"><br>3</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_1"><br>4</label>
+                                    </td>
+                                    
+                                </tr>
+                                <tr style="background-color: #e6e6e6">
+                                    <td style="text-align:left"><b>Our products are high quality.</b></td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_2"><br>1</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_2"><br>2</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_2"><br>3</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_2"><br>4</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="border-bottom: 1px solid #ccc;text-align:left"><b>You would recommend our product to a friend or coworker.</b></td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_3"><br>1</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_3"><br>2</label>
+                                    </td>
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_3"><br>3</label>
+                                    </td> 
+                                    <td style="border-left: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+                                        <label for=""><input type="radio" name="rate_3"><br>4</label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div class="submit">
+                    <button style="background-color:springgreen; color:black; padding: 8px;"type="button" name="submit">Submit</button>
+                </div>
+            </div>          
+        </div>
+    </form>
+</body>
+</html>

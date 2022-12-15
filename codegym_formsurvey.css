@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.survey{
+    margin: 10px;
+}
+
+h5{
+    margin: 8px;
+}
+
+.header{
+    margin: 8px;
+    background-color: beige;
+}
+
+.body{
+}
+
+
+.age_range:hover, .income_range:hover, .gender:hover, .product:hover, .often:hover, .pay:hover, .feature:hover, .rate:hover, .submit:hover{
+    background-color: wheat;
+    color:black;
+}
+.age_range, .income_range, .product, .often, .pay, .feature, .rate, .submit {
+    padding: 5px 0;
+}
+
+
+.rate {
+    width: 100%;
+    text-align: center;
+};
+
+
+
+
+
