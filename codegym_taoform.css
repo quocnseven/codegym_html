@@ -14,7 +14,9 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
   }
 
-  .form_2, .form_1{
+  .form_2, .form_1, .form_3{
     display:flex;
     justify-content: center;
+    margin: 20px;
+    padding: 50px;
   }
