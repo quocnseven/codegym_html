@@ -1,0 +1,9 @@
+td{
+    width: calc(100% /7);
+    border: 1px solid #ccc;
+}
+
+sub {
+    font-size: 10px;
+    color: black;
+}

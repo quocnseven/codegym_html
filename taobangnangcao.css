@@ -1,0 +1,18 @@
+table{
+    border-spacing:0;
+    width: 13%;
+    border: 1px solid black;
+}
+
+th{
+    background-color: tomato;
+}
+
+
+td{
+    width: calc(100% /8);
+    height: calc(100% / 8);
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
