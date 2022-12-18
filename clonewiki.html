@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Clone Wikipedia</title>
+    <link rel="stylesheet" href="./clonewiki/style/clonewiki.css">
+    <link rel="stylesheet" href="./clonewiki/font/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="header_top">
+            <div class="menu">
+                <i class="menuicon ti-menu-alt"></i>
+            </div>
+            <div class="wiki_img_header">
+                <img style="width: 50px; margin-right: 10px" src="./clonewiki/img/wikipedia.png" alt="wikipedia">
+            </div>
+            <div class="wiki_img_header2">
+                <img src="./clonewiki/img/Ảnh chụp màn hình_20221217_082145.png" alt="wikipedia 2">
+            </div>
+            <div class="header_search">
+                <form action="/" method="GET" enctype="multipart/form-data" name="search_input">
+                    <input class="searchinput" type="text" name="search_area" size="70px" placeholder="Tìm kiếm trên Wikipedia"><i class="search_icon ti-search"></i></input>
+                </form>
+            </div>
+            <div class="taotaikhoan"><a href="/">Tạo tài khoản</a></div>
+            <div class="moreicon"><i class="more ti-more"></i></div>
+        </div>
+    </header>
+    
+    <!-- main -->
+    <main>
+        <div class="menumain">
+            <div class="left_menumain">
+                <a style="margin-right: 10px;" href="/">Trang chính</a>
+                <a href="/">Thảo luận</a>
+            </div>
+            <div class="right_menumain">
+                <a href="/">Đọc</a>
+                <a style="margin-right: 10px; margin-left: 10px;" href="">Xem mã nguồn</a>
+                <a style="margin-right: 10px;" href="">Xem lịch sử</a>
+                <div class="more_main">Thêm <a href="/"></a><i class="more_icon_main ti-angle-down"></i></div>
+            </div>
+        </div>
+        <div class="hr"><hr></div>
+        <!-- main header -->
+        <div class="main_header">
+            <div class="main_header_top">
+                <div class="main_header_top_left">
+                    <h1>WIKIPEDIA TIẾNG VIỆT</h1>
+                    <p>Bạn chính là tác giả của Wikipedia</p>
+                </div>
+                <div class="main_header_top_right">
+                    <p><a href="/">1.279.379</a> bài viết và <a href="/">891.483</a> thành viên</p>
+                    <div class="modify">
+                        <a href="" class="modify_a">Tạo bài</a>
+                        <a href="" class="modify_a">Sửa bài</a>
+                        <a href="" class="modify_a">Tải hình</a>
+                        <a href="" class="modify_a">Quy tắc</a>
+                        <a href="" class="modify_a">Đặt câu hỏi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_header_bottom">
+                <div class="main_header_bottom_1">
+                    <h4 class="text">Bài viết:</h4>
+                    <a href="" class="baiviet">Tra cứu .</a>
+                    <a href="" class="baiviet">Bài mới .</a>
+                    <a href="" class="baiviet">Hỏi đáp .</a>
+                    <a href="" class="baiviet">Thỉnh cầu .</a>
+                    <a href="" class="baiviet">Thư viện</a>
+                </div>
+                <div class="main_header_bottom_2">
+                    <h4 class="text">Trợ giúp:</h4>
+                    <a href="" class="baiviet">FAQ .</a>
+                    <a href="" class="baiviet">Giúp đỡ .</a>
+                    <a href="" class="baiviet">Hướng dẫn .</a>
+                    <a href="" class="baiviet">Chỗ thử .</a>
+                    <a href="" class="baiviet">Guestbook</a>
+                </div>
+            </div>
+        </div>
+        <!-- main body -->
+        <div class="main_body">
+            <div class="main_body_left">
+
+                <div class="main_box">
+                    <div class="main_box_header">
+                        <div class="main_box_header_icon">
+                            <i class="icon_star ti-star"></i>
+                        </div>
+                        <span class="baivietchonloc"><h2>Bài viết chọn lọc</h2></span>
+                    </div>
+                    <div class="main_box_left_body">
+                        <div class="main_box_left_img"><img class="imgleft-body" src="./clonewiki/img/Uranus_moons.jpg" alt=""></div>
+                        <div class="main_box_left_para"><p>Sao Thiên Vương, hành tinh thứ bảy trong Hệ Mặt Trời, có 27 vệ tinh, tất cả được đặt tên theo các nhân vật từ các tác phẩm của William Shakespeare và Alexander Pope. William Herschel đã khám phá hai vệ tinh đầu tiên, Titania và Oberon, vào năm 1787, và các vệ tinh hình cầu (Ariel và Umbriel) đã được William Lassell phát hiện năm 1851, (Miranda) được Gerard Kuiper phát hiện năm 1948. Các vệ tinh còn lại được phát hiện sau năm 1985, hoặc là trong sứ mệnh bay ngang qua của Voyager 2 hoặc bởi sự hỗ trợ của kính thiên văn đặt trên Trái Đất. Vệ tinh Sao Thiên Vương được chia thành ba nhóm: mười ba vệ tinh vòng trong, năm vệ tinh lớn, và chín vệ tinh dị hình. Vệ tinh vòng trong là những thiên thể nhỏ và tối chia sẻ chung nguồn gốc và tính chất với vành đai hành tinh. Năm vệ tinh lớn có khối lượng đủ để đạt được trạng thái cân bằng thủy tĩnh, và bốn trong số đó có dấu hiệu quá trình dịch chuyển nội lực để hình thành các hẻm núi và núi lửa trên bề mặt.</p></div>
+                        <div class="main_box_left_doctiep"><p>[<a href="/">Đọc tiếp</a>]</p></div>
+                        <div class="main_box_left_moichon">
+                            <p>Mới chọn: 
+                            <a href="/">Tàu sân bay Akagi </a>. <a href="/">Giải vô địch bóng đá châu Âu 2012</a> . <a href="/"> 1000 Forms of Fear</a>
+                            </p>
+                            <div class="main_box_more">
+                                <div class="more_option"><a href="">Lưu trữ</a></div>
+                                <div class="more_option"><a href="">Thêm bài viết chọn lọc</a></div>
+                                <div class="more_option"><a href="">Ứng cử viên</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="main_box">
+                    <div class="main_box_header2">
+                        <div class="main_box_header_icon2">
+                            <i class="icon_star ti-star"></i>
+                        </div>
+                        <span class="baivietchonloc2"><h2>Bài viết tốt</h2></span>
+                    </div>
+                    <div class="main_box_left_body">
+                        <div class="main_box_left_para"><p>Kiếp hoa là một bộ phim điện ảnh tâm lý tình cảm Việt Nam năm 1953, thực hiện bởi Công ty điện ảnh Kim Chung do Doãn Hải Thanh làm đạo diễn. Trần Viết Long, chủ đoàn cải lương Kim Chung, là nhà sản xuất của bộ phim. Với các diễn viên tham gia diễn xuất gồm Kim Chung, Kim Xuân và Trần Quang Tứ, nội dung phim xoay quanh câu chuyện về hai chị em gái trên đường tản cư với người mẹ già yếu của mình. Buổi tuyển chọn kịch bản đã tổ chức từ năm 1952, trong đó "Kiếp hoa" của Nguyễn Kim Thành được chọn để đưa vào sản xuất. Quá trình quay phim chính diễn ra trong năm 1953, với phần ngoại cảnh quay tại Hà Nội còn nội cảnh thì quay tại Hồng Kông. Đạo diễn và quay phim của bộ phim đều là người Hồng Kông được Viết Long thuê về làm phim. </p></div>
+                        <div class="main_box_left_doctiep"><p>[<a href="/">Đọc tiếp</a>]</p></div>
+                        <div class="main_box_left_moichon">
+                            <p>Mới chọn: 
+                            <a href="/">Giải bóng đá ngoại hạng Anh </a>. <a href="/">"Teen vọng cổ"</a> . <a href="/"> Chaconne cung Sol thứ</a>
+                            </p>
+                            <div class="main_box_more">
+                                <div class="more_option"><a href="">Lưu trữ</a></div>
+                                <div class="more_option"><a href="">Thêm bài viết tốt</a></div>
+                                <div class="more_option"><a href="">Ứng cử viên</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main_box">
+                    <div class="main_box_header3">
+                        <div class="main_box_header_icon3">
+                            <i class="icon_star ti-star"></i>
+                        </div>
+                        <span class="baivietchonloc3"><h2>Danh sách chọn lọc</h2></span>
+                    </div>
+                    <div class="main_box_left_body">
+                        <div class="main_box_left_img"><img class="imgleft-body" src="./clonewiki/img/Judit_Polgar_(cropped).jpg" alt=""></div>
+                        <div class="main_box_left_para"><p>Có 39 nữ kỳ thủ cờ vua đạt danh hiệu Đại kiện tướng (Grandmaster - GM), danh hiệu cao nhất do Liên đoàn cờ vua quốc tế (FIDE) trao tặng. Danh hiệu Đại kiện tướng được FIDE chính thức thiết lập năm 1950. Quy định hiện đại thường yêu cầu kỳ thủ phải có hệ số Elo tối thểu 2500 và dành ba chuẩn GM giải đấu bao gồm chỉ số thi đấu cấp GM là 2600 để giành được danh hiệu, tuy vẫn có nhiều trường hợp ngoại lệ. Từ năm 1993, các kỳ thù giành chức vô địch cờ vua nữ thế giới được trao trực tiếp danh hiệu Đại kiện tướng. Giống như tất cả các danh hiệu FIDE, Đại kiện tướng là danh hiệu trọn đời, không yêu cầu kỳ thủ duy trì phong độ hay phải tiếp tục thi đấu sau khi nhận.</p></div>
+                        <div class="main_box_left_doctiep"><p>[<a href="/">Đọc tiếp</a>]</p></div>
+                        <div class="main_box_left_moichon">
+                            <p>Mới chọn: 
+                            <a href="/">Tàu sân bay Akagi </a>. <a href="/">Giải vô địch bóng đá châu Âu 2012</a> . <a href="/"> 1000 Forms of Fear</a>
+                            </p>
+                            <div class="main_box_more">
+                                <div class="more_option"><a href="">Lưu trữ</a></div>
+                                <div class="more_option"><a href="">Thêm bài viết chọn lọc</a></div>
+                                <div class="more_option"><a href="">Ứng cử viên</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main body right -->
+            <div class="main_body_right">
+                <div class="main_box">
+                    <div class="main_box_header">
+                        <div class="main_box_header_icon">
+                            <i class="question_icon ti-help"></i>
+                        </div>
+                        <span class="baivietchonloc"><h2>Bạn có biết?</h2></span>
+                    </div>
+                    <div class="main_box_left_body">
+                        <div class="main_box_left_img"><img class="imgleft-body" src="./clonewiki/img/Dominik_Livaković_2021.jpg" alt=""></div>
+                        <div class="main_box_left_para">
+                            <ul>
+                                <li>…Dominik Livaković là thủ môn đầu tiên trong lịch sử Giải vô địch bóng đá thế giới cản được 2 cú sút đầu tiên của đối thủ ở loạt luân lưu?</li>
+                                <li>…ca từ của bài hát "Thật bất ngờ" từng được dùng trong một thử thách trong chương trình truyền hình thực tế The Amazing Race của Mỹ?</li>
+                                <li>…đàn Streichmelodion đã bị nhận xét là "có hình dạng và âm sắc giống một cái chảo rán hơn là một nhạc cụ?"</li>
+                                <li>…Giác Ngộ là cơ quan báo chí Phật giáo có thời gian tồn tại và phát triển liên tục lâu dài nhất trong lịch sử báo chí Việt Nam?</li>
+                            </ul>
+                        </div>
+                        <div class="main_box_left_moichon">
+                            <p>Từ những <a href="/">bài viết mới</a> của Wikipedia</p>
+                            <div class="main_box_more">
+                                <div class="more_option"><a href="">Lưu trữ</a></div>
+                                <div class="more_option"><a href="">Thêm bài viết chọn lọc</a></div>
+                                <div class="more_option"><a href="">Ứng cử viên</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main_box">
+                    <div class="main_box_header">
+                        <div class="main_box_header_icon">
+                            <i class="icon_star ti-star"></i>
+                        </div>
+                        <span class="baivietchonloc"><h2>Ngày này năm xưa</h2></span>
+                    </div>
+                    <div class="main_box_left_body">
+                        <div class="main_box_left_img"><img class="imgleft-body" src="./clonewiki/img/ngaynaynamxua.png" alt=""></div>
+                        <div class="main_box_left_para">
+                            <p>18 tháng 12: Ngày Di dân Quốc tế; ngày Quốc khánh tại Qatar (1878); ngày Cộng hòa tại Niger (1958), ngày Ngôn ngữ Ả Rập Liên Hiệp Quốc.</p>
+                            <ul>
+                                <li>1271 – Đại hãn Hốt Tất Liệt cải quốc hiệu từ "Đại Mông Cổ Quốc" thành "Đại Nguyên", chính thức khởi đầu triều Nguyên.</li>
+                                <li>1916 – Chiến tranh thế giới thứ nhất: Trận Verdun (hình) kết thúc với thắng lợi của Pháp, song cả hai bên tham chiến là Pháp và Đức đều chịu tổn thất nặng nề.</li>
+                                <li>1972 – Chiến tranh Việt Nam: Tổng thống Richard Nixon tuyên bố Hoa Kỳ tiến hành Chiến dịch Linebacker II để ném bom miền Bắc Việt Nam.</li>
+                                <li>1979 – Đại Hội đồng Liên Hiệp Quốc thông qua Công ước loại bỏ mọi hình thức phân biệt đối xử với phụ nữ.</li>
+                            </ul>
+                        </div>
+                        <div class="main_box_left_doctiep"><p>[<a href="/">Đọc tiếp</a>]</p></div>
+                        <div class="main_box_left_moichon">
+                            <p>Mới chọn: 
+                            <a href="/">Tàu sân bay Akagi </a>. <a href="/">Giải vô địch bóng đá châu Âu 2012</a> . <a href="/"> 1000 Forms of Fear</a>
+                            </p>
+                            <div class="main_box_more">
+                                <div class="more_option"><a href="">Lưu trữ</a></div>
+                                <div class="more_option"><a href="">Thêm bài viết chọn lọc</a></div>
+                                <div class="more_option"><a href="">Ứng cử viên</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main_box">
+                    <div class="main_box_header3">
+                        <div class="main_box_header_icon3">
+                            <i class="icon_star ti-star"></i>
+                        </div>
+                        <span class="baivietchonloc3"><h2>Các lĩnh vực</h2></span>
+                    </div>
+                    <div class="main_box_left_body">
+                        <div class="main_box_left_img"><img class="imgleft-body" src="./clonewiki/img/Judit_Polgar_(cropped).jpg" alt=""></div>
+                        <div class="main_box_left_para"><p>Có 39 nữ kỳ thủ cờ vua đạt danh hiệu Đại kiện tướng (Grandmaster - GM), danh hiệu cao nhất do Liên đoàn cờ vua quốc tế (FIDE) trao tặng. Danh hiệu Đại kiện tướng được FIDE chính thức thiết lập năm 1950. Quy định hiện đại thường yêu cầu kỳ thủ phải có hệ số Elo tối thểu 2500 và dành ba chuẩn GM giải đấu bao gồm chỉ số thi đấu cấp GM là 2600 để giành được danh hiệu, tuy vẫn có nhiều trường hợp ngoại lệ. Từ năm 1993, các kỳ thù giành chức vô địch cờ vua nữ thế giới được trao trực tiếp danh hiệu Đại kiện tướng. Giống như tất cả các danh hiệu FIDE, Đại kiện tướng là danh hiệu trọn đời, không yêu cầu kỳ thủ duy trì phong độ hay phải tiếp tục thi đấu sau khi nhận.</p></div>
+                        <div class="main_box_left_doctiep"><p>[<a href="/">Đọc tiếp</a>]</p></div>
+                        <div class="main_box_left_moichon">
+                            <p>Mới chọn: 
+                            <a href="/">Tàu sân bay Akagi </a>. <a href="/">Giải vô địch bóng đá châu Âu 2012</a> . <a href="/"> 1000 Forms of Fear</a>
+                            </p>
+                            <div class="main_box_more">
+                                <div class="more_option"><a href="">Lưu trữ</a></div>
+                                <div class="more_option"><a href="">Thêm bài viết chọn lọc</a></div>
+                                <div class="more_option"><a href="">Ứng cử viên</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+</body>
+</html>

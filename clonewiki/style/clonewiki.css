@@ -1,0 +1,341 @@
+a:link{
+    color:royalblue;
+    text-decoration:none;
+}
+
+
+
+.header_top{
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    display:flex;
+    justify-content: left;
+    position:relative;
+
+}
+
+
+body{
+
+    position:relative;
+}
+
+main{
+    position:absolute;
+    width:70%;
+    right:15%;
+}
+
+.menu{
+    padding: 8px;
+    margin: 10px;
+
+}
+
+.menuicon{
+  font-size: 20px;
+
+}
+
+.wiki_img_header{
+    margin: 8px;
+
+}
+
+.wiki_img_header2{
+    padding: 8px;
+    margin-right: 20px;
+
+}
+
+.header_search{
+    padding: 8px;
+    margin: 10px;
+    position:absolute;
+    top: 5px;
+    right: 30%;
+
+}
+
+.searchinput{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    margin: 5px;
+    position:relative;
+
+}
+
+.searchinput:hover{
+    background-color:gold;
+}
+
+.search_icon{
+    font-size: 20px;
+    margin-right: 5px;
+    position:absolute;
+    top: 18px;
+    left: 18px;
+}
+
+
+
+.taotaikhoan{
+    position:absolute;
+    right:70px;
+    top:30px;
+}
+
+
+.moreicon{
+    font-size: 20px;
+    position:absolute;
+    right:40px;
+    top:30px;
+}
+
+.menumain{
+    padding: 8px;
+    margin: 10px;
+}
+
+.left_menumain{
+    float:left;
+}
+
+.right_menumain{
+    float:right;
+}
+
+.more_main{
+    float:right;
+}
+
+.hr{
+    padding: 10px;
+}
+
+.main_header{
+    display:flex;
+    flex-flow: wrap column;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 3px #eee;
+}
+
+.main_header_top{
+    min-height: 200px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.main_header_top_left{
+    padding: 10px;
+    margin: 20px;
+}
+
+.main_header_top_right{
+    padding: 20px;
+    margin: 20px;
+}
+
+.modify{
+
+}
+
+.modify_a{
+    padding: 8px;
+    margin: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.main_header_bottom{
+    min-height: 76px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 3px #eee;
+    display:flex;
+    justify-content:space-around;
+}
+
+.text{
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+}
+
+.main_header_bottom_1{
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.baiviet{
+    padding-right: 8px;
+    margin: -5px;
+
+}
+
+.main_header_bottom_2{
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+}
+
+.main_body{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: wrap column;
+    flex-direction: row;
+}
+
+.main_body_left{
+    flex: 1;
+
+}
+
+.main_body_right{
+    flex:1;
+}
+
+.main_box{
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 3px #eee;
+    background-color: #fff;
+
+}
+
+.main_box_header{
+    display:flex;
+    align-items: center;
+    background-color: #fcf4db;
+
+}
+
+.main_box_header_icon{
+    padding: 16px;
+    margin: 0px;
+    background-color: #F2C94C;
+}
+
+.icon_star{
+    color: white;
+    padding: 5px;
+    margin: 4px;
+    font-size: 30px;
+
+}
+
+.baivietchonloc {
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.baivietchonloc h2{
+    margin-left: 10px;
+}
+
+.main_box_left_body{
+    display:block;
+    
+
+}
+
+.main_box_left_img{
+    box-sizing: border-box;  
+
+}
+
+.imgleft-body{
+    float:right;
+    width: 40%;
+}
+
+.main_box_left_para{
+
+}
+
+.main_box_left_doctiep{
+
+
+}
+
+.main_box_left_moichon{
+
+
+}
+
+
+.main_box_more{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+
+}
+
+.more_option{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.main_box_header2{
+    display:flex;
+    align-items: center;
+    background-color: #d4efdf;
+
+}
+
+.main_box_header_icon2{
+    padding: 16px;
+    margin: 0px;
+    background-color: #27ae60;
+
+}
+
+
+.baivietchonloc2{
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.baivietchonloc2 h2{
+    margin-left: 10px;
+}
+
+.main_box_header3{
+    display:flex;
+    align-items: center;
+    background-color: #f1e1f7;
+
+
+}
+
+.main_box_header_icon3{
+    padding: 16px;
+    margin: 0px;
+    background-color: #bb6bd9;
+
+}
+
+
+
+.baivietchonloc3{
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.baivietchonloc3 h2{
+    margin-left: 10px;
+}
+
