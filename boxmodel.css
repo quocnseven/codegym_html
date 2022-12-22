@@ -1,0 +1,19 @@
+body{
+    width: 200px;
+}
+
+.margin {
+    background-color: green;
+    padding: 20px;
+    
+}
+
+.padding{
+    background-color: aliceblue;
+    padding: 40px 20px;
+}
+
+.content{
+   text-align: center;
+    background-color:darkgrey;
+}
