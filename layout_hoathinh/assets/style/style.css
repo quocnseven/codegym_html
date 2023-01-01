@@ -1,0 +1,147 @@
+/* General */
+.gray-text{
+    color:rgba(0, 0, 0, 0.3);
+}
+
+.medium-text{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* header */
+#header{
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px gray;
+}
+
+.header__icon{
+    text-align: center;
+}
+
+.large-text{
+    font-size: 50px;
+}
+
+/* subheader */
+#subheader{
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 3px gray;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.list__item{
+    list-style-type: none;
+    
+}
+
+.list__link{
+    color: black;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+.list__link a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.list__link a:hover{
+    color:brown;
+}
+
+.list__link + .list__link{
+    border-left: 1px solid black;
+}
+
+
+/* body */
+#body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* nav */
+#nav{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 30%;
+    min-height: 1000px;
+    box-shadow: 2px 2px gray;
+    padding: 10px;
+}
+
+
+.nav__box{
+   width: 100%;
+   margin-bottom: 20px;
+   background-color: rgba(217, 217, 217, 0.1);
+   padding: 5px 5px 5px 0;
+}
+
+.box__img{
+    width: 100%;
+}
+
+.box__img img{
+    width: 100%;
+}
+
+.box__subtitle{
+
+}
+
+.box__channel{
+    margin-top: -10px;
+    
+}
+
+
+/* content */
+#content{
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    flex: 1;
+    min-height: 1000px;
+    box-shadow: 2px 2px gray;
+    padding: 10px;
+}
+
+.content__img{
+ 
+}
+
+.content__img video{
+   
+}
+/* footer */
+#footer{
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 2px 2px gray;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__cr{
+    font-weight: bold;
+}
