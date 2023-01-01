@@ -15,11 +15,15 @@
 
 /* header */
 #header{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(184, 183, 183);
     min-height: 100px;
     display: flex;
     justify-content: center;
     box-shadow: 2px 2px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header__icon{
@@ -35,7 +39,7 @@
     min-height: 50px;
     background-color: rgba(0, 0, 0, 0.2);
     display: flex;
-    margin-top: 5px;
+    margin-top: 130px;
     margin-bottom: 5px;
     box-shadow: 2px 3px gray;
     justify-content: center;
