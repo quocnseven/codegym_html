@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div id="menu">
+            <ul class="menu__list">
+                <li class="menu-items"><a class="gray-normal-text " href="#">Logo</a></li>
+                <li class="menu-items  recent-active"><a class="gray-normal-text recent-active" href="#">Home</a></li>
+                <li class="menu-items"><a class="gray-normal-text" href="#">About</a></li>
+                <li class="menu-items"><a class="gray-normal-text" href="#">Project</a><li>
+                <li class="menu-items"><a class="gray-normal-text" href="#">Contact</a><li>
+            </ul>
+            <!-- menu icon mobile -->
+            <label for="menu-input" id="menu__icon">
+                <i class="ti-menu"></i>
+            </label>
+            <!-- input menu -->
+            <input hidden type="checkbox" id="menu-input">
+            <!-- overlay -->
+            <label for="menu-input" id="overlay"></label>
+            <!-- menu mobile -->
+            <label for="menu-input" id="mobile-menu">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__items"><a href="#">Logo</a></li>
+                    <li class="mobile-menu__items"><a href="#">Home</a></li>
+                    <li class="mobile-menu__items"><a href="#">About</a></li>
+                    <li class="mobile-menu__items"><a href="#">Project</a></li>
+                    <li class="mobile-menu__items"><a href="#">Contact</a></li>
+                </ul>
+                <label for="menu-input" class="mobile-menu__close"><i class="ti-close"></i></label>
+            </label>
+        </div>
+
+
+        <div id="login">
+                <i class="login__icon ti-new-window"></i>
+                <a class="gray-normal-text" href="#">Login</a>
+        </div>
+    </header>
+
+    <!-- body -->
+    <main id="main">
+        <nav id="nav">
+            <ul class="nav__list">
+                <li class="nav_items"><a href="">Link</a></li>
+                <li class="nav_items"><a href="">Link</a></li>
+                <li class="nav_items"><a href="">Link</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <div class="content__header"><h1>Welcome</h1></div>
+            <div class="content__body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam deleniti suscipit eaque a modi vitae quae soluta, nobis veritatis porro! Odit officia minima vel veritatis accusamus exercitationem necessitatibus quae architecto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe a perspiciatis commodi veritatis similique nesciunt maxime debitis rerum architecto, exercitationem magni, repellat aut ducimus rem corrupti ullam excepturi animi cupiditate.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam similique quidem obcaecati itaque sint maxime. Fuga deleniti cumque atque omnis, doloribus dolorum explicabo quas modi repellendus, ipsam, nisi at facilis.
+            </div>
+            <div class="content__footer">
+                <div class="text"><h1>Test</h1></div>
+                <div class="description gray-normal-text"><p>Fuga deleniti cumque atque omnis, doloribus dolorum explicabo quas modi repellendus, ipsam, nisi at facilis...</p></div>
+            </div>
+        </div>
+
+        <nav id="ads">
+            <button class="ads__button large-btn">ADS</button>
+            <button class="ads__button large-btn">ADS</button>
+        </nav>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer__text"><h3>Footer Text</h3></div>
+    </footer>
+</body>
+</html>
